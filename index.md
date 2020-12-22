@@ -1,7 +1,4 @@
-Hello and welcome to this blog. Edit the `index.md` file to change this content. All pages on the blog, including this one, use [Markdown](https://guides.github.com/features/mastering-markdown/). You can include images:
+Hello and welcome to my first blog. \
+My name is Richard, a second year undergraduate student from NTU. I am studying double degree in Computer Science and Business.
 
-![Image of fast.ai logo](images/logo.png)
-
-## This is a title
-
-And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file. 
+This blog is meant to be a documentation of my journey in the world of computer science.
