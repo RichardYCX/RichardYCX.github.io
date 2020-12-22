@@ -30,7 +30,7 @@ ML pipeline
 I've got to say, even though some of the courses are probably not going to be useful to what my job is in the future, they are definitely still worth taking because
 they make me a more well-rounded person. It makes me appreciate the world and the society we live in. If anyone was to ask me if I regret taking the double degree,
 my answer is a definitive 'no'. \
-It is definitely challenging, but the reward is that you become more aware of your surroundings, and makes me a more critical thinker.\
+It is definitely challenging, but the reward is that you become more aware of your surroundings, and makes me a more critical thinker.
 
 ## Future aspirations
 In the future, I hope to embark in a job that deals with data, specifically Machine Learning and Artifical Intelligence. At the same time, I hope to contribute to 
@@ -41,6 +41,6 @@ Ok that's it for this first blog. I hope to continue this and start posting on m
 for Coders Course.\
 I highly recommend this course to anyone interested in Machine Learning in general! Jeremy Howard is excellent at his craft and his lectures have shed so much insights 
 even for me, someone who has just started his journey.
-The link is [links](https://course.fast.ai/)
+The link is [here](https://course.fast.ai/)
 
 Till next time, bye!
