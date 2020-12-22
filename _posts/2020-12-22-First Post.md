@@ -10,6 +10,8 @@ My name is Richard, a second year student from Nanyang Technological University,
 After being in this course for 1.5 years, I've got to say... I REALLY ENJOY WHAT I'M LEARNING! 
 
 As cliche as it sounds, it really made me see the world from a whole new perspective! 
+
+## Journey so far
 Here's the courses I've taken so far:
 - Introduction to Computational Thinking (ICT) -> logical thinking, python, GUI
 - Discrete Math -> mathematical proofs, essential math for computer science
@@ -20,7 +22,6 @@ Here's the courses I've taken so far:
 ML pipeline
  - Algorithms -> complexity analysis, algorithms, greedy algorithms, complexity theory
  - Object Oriented Design and Programming -> OOP, class and sequence diagrams, java
- - 
 - Financial Management -> stocks, bonds, valuation
 - Marketing -> evaluation metrics, 4Ps (price, product, place, promotion), marketing theories
 - Business Analytics I -> data cleaning, data exploration, linear regression, logistic regression, CART, text mining, R 
@@ -31,6 +32,7 @@ they make me a more well-rounded person. It makes me appreciate the world and th
 my answer is a definitive 'no'. \
 It is definitely challenging, but the reward is that you become more aware of your surroundings, and makes me a more critical thinker.\
 
+## Future aspirations
 In the future, I hope to embark in a job that deals with data, specifically Machine Learning and Artifical Intelligence. At the same time, I hope to contribute to 
 businesses and companies by applying these skill sets to improve the workflow of such companies, and help them leverage on the power of data to bring companies the 
 competitive edge.
