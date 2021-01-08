@@ -1,4 +1,4 @@
-# The beginning
+# The Beginning
 
 Wow I can't believe I'm actually going to blog. This is my first time sharing my thoughts on the internet so I'm pretty nervous...\
 Anyways let's try it out and see how it goes.
