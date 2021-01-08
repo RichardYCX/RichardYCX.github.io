@@ -13,6 +13,7 @@ For this post, I thought it'll be nice to collate dictionary of common terms in 
 |L1 norm| mean absolute difference| fancy term for taking the mean of the *absolute value* of differences|
 |L2 norm| root mean squared error/RMSE| fancy term for taking the mean of the *square* of differences and then take the *square root*|
 |metric | | another function to calculate a value of how well/badly the model is doing **on the validation set** (*may not vary with every mini-batch*), *eg accuracy/precision/recall for classification, RMSE for regression*|
+
 > difference between loss function and metric: loss function is sensitive to minute changes. Therefore, it is the function we use to calculate gradient. However, at the end of the day, the metric is what we are looking out for (practical significance).
 
 ## Deep Learning Models
@@ -39,6 +40,7 @@ For this post, I thought it'll be nice to collate dictionary of common terms in 
 |vocab| |list of all the possible levels of dependent variable (*applicable to classification problems*)|
 |tensor| | fancy term for arrays of differet dimensions |
 |ReLU | rectified linear unit | fancy term for a nonlinearity function that returns 0 for negative numbers and unchaged for postive numbers |
+
 >There are other nonlinearities other than ReLU, such as leaky ReLU, but that is not a parameter to change on the model to model basis
 
 ## Tabular Model Vocab
@@ -47,7 +49,8 @@ For this post, I thought it'll be nice to collate dictionary of common terms in 
 |:-------------|:-------------|
 |latent factors|factors that are hidden in the data that affect the dependent variable|
 |embedding|fancy term for the computational shortcut for doing matrix multiplication without a one-hot encoded matrix|
-> Note: due to the nature of tabular data, often times, ensembling techniques such as random forest works equally well. Better yet, try combining random forest with a neural network!|
+
+> Note: due to the nature of tabular data, often times, ensembling techniques such as random forest works equally well. Better yet, try combining random forest with a neural network!
 
 ## RNN Model Vocab
 
@@ -72,6 +75,7 @@ For this post, I thought it'll be nice to collate dictionary of common terms in 
 |L2 regularization/wd | weight decay | fancy term for adding the sum of all the weights square to your loss function. It encourage the weights to be as small as possible|
 |mixup||creating new data by overlaying different proortions of existing data on top of each other. Useful when you don't have much data and don't have a pretrained model that was trained on data similar to your dataset. Can be extended to NLP models too|
 |label smoothing||multi-category classification: replace all our 1s with a number a bit less than 1, and our 0s by a number a bit more than 0, and then train. By encouraging your model to be less confident, label smoothing will make your training more robust, even if there is mislabeled data.|
-> mixup and label smoothing often requires more epochs to see significant improvements.|
+
+> mixup and label smoothing often requires more epochs to see significant improvements.
 
 That's alot of terms. I think I'll call it a day.
