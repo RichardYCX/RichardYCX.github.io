@@ -3,7 +3,7 @@ For this post, I thought it'll be nice to collate dictionary of common terms in 
 
 ## Common Terms
 | acronym        |actual term | explanation   |
-|------------- |-------------|-------------|
+|-------------|-------------|-------------|
 |dls |dataloaders| fastAI's module to split datasets into mini-batches. gradient is updated after every batch (rather than every epoch)|
 |ds  |dataset| tuple of inputs and labels |
 |bs | batch size| size of each mini-batch|
@@ -16,14 +16,14 @@ For this post, I thought it'll be nice to collate dictionary of common terms in 
 
 ## Deep Learning Models
 | acronym        |actual term | explanation   |
-|:------------- |:-------------|:-------------|
+|:-------------|:-------------|:-------------|
 |CNN | convolutional neural network| a type of neural network that works particularly well for computer vision tasks|
 |RNN| recurrent neural network| a type of neural network that works particularly well for natural language processing tasks|
 |collaborative filtering| |a type of neural network that works particularly well for tablular data|
 
 ## Neural Network Vocab
 | acronym        |actual term | explanation   |      
-|:------------- |:-------------|:-------------|
+|:-------------|:-------------|:-------------|
 |epoch| | one complete pass through the training data|
 |transfer learning| |using a pretrained model as the base, and training for a few more epochs to solve a ML problem that is new to the pretrained model|
 |activations|| numbers that are calculated (both by linear and nonlinear layers)|
@@ -56,7 +56,7 @@ For this post, I thought it'll be nice to collate dictionary of common terms in 
 
 ## Fine-tuning Vocab
 | acronym        |actual term | explanation   |
-|:------------- |:-------------|:-------------|
+|:-|:-|:-|
 |mixed-precision training| | used less precise floating point numbers to speed up training and require less memory|
 |normalise| |helps with the training process. Transforms variables into values with mean of 0 and a standard deviation of 1. Normalization becomes especially important when using pretrained models|
 |lr_finder| learning rate finder| super handy tool for finding the optimal learning rate instead of randomly trying different learning rates|
