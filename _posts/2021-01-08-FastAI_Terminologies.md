@@ -1,3 +1,4 @@
+# Neural Network Terminologies
 For this post, I thought it'll be nice to collate dictionary of common terms in AI that I'll probably use in the future (and forget). I had quite a bit of trouble remembering what each term means. Hopefully this  will be useful for anyone that is trying to learn AI. 
 
 ## Common Terms
