@@ -2,6 +2,7 @@
 For this post, I thought it'll be nice to collate dictionary of common terms in AI that I'll probably use in the future (and forget). I had quite a bit of trouble remembering what each term means. Hopefully this  will be useful for anyone that is trying to learn AI. 
 
 ## Common Terms
+
 | acronym        |actual term | explanation   |
 |-------------|-------------|-------------|
 |dls |dataloaders| fastAI's module to split datasets into mini-batches. gradient is updated after every batch (rather than every epoch)|
@@ -22,6 +23,7 @@ For this post, I thought it'll be nice to collate dictionary of common terms in 
 |collaborative filtering| |a type of neural network that works particularly well for tablular data|
 
 ## Neural Network Vocab
+
 | acronym        |actual term | explanation   |      
 |:-------------|:-------------|:-------------|
 |epoch| | one complete pass through the training data|
@@ -40,6 +42,7 @@ For this post, I thought it'll be nice to collate dictionary of common terms in 
 
 
 ## Tabular Model Vocab
+
 |term | explanation   |
 |:-------------|:-------------|
 |latent factors|factors that are hidden in the data that affect the dependent variable|
@@ -47,6 +50,7 @@ For this post, I thought it'll be nice to collate dictionary of common terms in 
 > Note: due to the nature of tabular data, often times, ensembling techniques such as random forest works equally well. Better yet, try combining random forest with a neural network!
 
 ## RNN Model Vocab
+
 |actual term | explanation   |
 |:-------------|:-------------|
 |self-supervised learning| training a model using labels that are embedded in the independent variable, rather than requiring external labels. For instance, training a model to predict the next word in a text|
@@ -55,8 +59,9 @@ For this post, I thought it'll be nice to collate dictionary of common terms in 
 |numericalisation| convert each word in the vocab into a number corresponding to it's index|
 
 ## Fine-tuning Vocab
+
 | acronym        |actual term | explanation   |
-|:-|:-|:-|
+|:---|:---|:---|
 |mixed-precision training| | used less precise floating point numbers to speed up training and require less memory|
 |normalise| |helps with the training process. Transforms variables into values with mean of 0 and a standard deviation of 1. Normalization becomes especially important when using pretrained models|
 |lr_finder| learning rate finder| super handy tool for finding the optimal learning rate instead of randomly trying different learning rates|
