@@ -2,7 +2,7 @@
 For this post, I thought it'll be nice to collate dictionary of common terms in AI that I'll probably use in the future (and forget). I had quite a bit of trouble remembering what each term means. Hopefully this  will be useful for anyone that is trying to learn AI. 
 
 ## Common Terms
-| acronym        |actual term | explanation   |      
+| acronym        |actual term | explanation   |
 |:------------- |:-------------|:-------------|
 |dls |dataloaders| fastAI's module to split datasets into mini-batches. gradient is updated after every batch (rather than every epoch)|
 |ds  |dataset| tuple of inputs and labels |
@@ -15,7 +15,7 @@ For this post, I thought it'll be nice to collate dictionary of common terms in 
 > difference between loss function and metric: loss function is sensitive to minute changes. Therefore, it is the function we use to calculate gradient. However, at the end of the day, the metric is what we are looking out for (practical significance).
 
 ## Deep Learning Models
-| acronym        |actual term | explanation   |      
+| acronym        |actual term | explanation   |
 |:------------- |:-------------|:-------------|
 |CNN | convolutional neural network| a type of neural network that works particularly well for computer vision tasks|
 |RNN| recurrent neural network| a type of neural network that works particularly well for natural language processing tasks|
@@ -40,14 +40,14 @@ For this post, I thought it'll be nice to collate dictionary of common terms in 
 
 
 ## Tabular Model Vocab
-|term | explanation   |      
+|term | explanation   |
 |:-------------|:-------------|
 |latent factors|factors that are hidden in the data that affect the dependent variable|
 |embedding|fancy term for the computational shortcut for doing matrix multiplication without a one-hot encoded matrix|
 > Note: due to the nature of tabular data, often times, ensembling techniques such as random forest works equally well. Better yet, try combining random forest with a neural network!
 
 ## RNN Model Vocab
-|actual term | explanation   |      
+|actual term | explanation   |
 |:-------------|:-------------|
 |self-supervised learning| training a model using labels that are embedded in the independent variable, rather than requiring external labels. For instance, training a model to predict the next word in a text|
 |corpus| all the words in the dataset|
@@ -55,7 +55,7 @@ For this post, I thought it'll be nice to collate dictionary of common terms in 
 |numericalisation| convert each word in the vocab into a number corresponding to it's index|
 
 ## Fine-tuning Vocab
-| acronym        |actual term | explanation   |      
+| acronym        |actual term | explanation   |
 |:------------- |:-------------|:-------------|
 |mixed-precision training| | used less precise floating point numbers to speed up training and require less memory|
 |normalise| |helps with the training process. Transforms variables into values with mean of 0 and a standard deviation of 1. Normalization becomes especially important when using pretrained models|
