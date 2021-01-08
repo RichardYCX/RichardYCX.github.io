@@ -16,6 +16,7 @@ For this post, I thought it'll be nice to collate dictionary of common terms in 
 > difference between loss function and metric: loss function is sensitive to minute changes. Therefore, it is the function we use to calculate gradient. However, at the end of the day, the metric is what we are looking out for (practical significance).
 
 ## Deep Learning Models
+
 | acronym        |actual term | explanation   |
 |:-------------|:-------------|:-------------|
 |CNN | convolutional neural network| a type of neural network that works particularly well for computer vision tasks|
