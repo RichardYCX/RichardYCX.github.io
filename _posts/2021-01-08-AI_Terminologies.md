@@ -14,7 +14,7 @@ For this post, I thought it'll be nice to collate dictionary of common terms in 
 |L2 norm| root mean squared error/RMSE| fancy term for taking the mean of the *square* of differences and then take the *square root*|
 |metric | | another function to calculate a value of how well/badly the model is doing **on the validation set** (*may not vary with every mini-batch*), *eg accuracy/precision/recall for classification, RMSE for regression*|
 
-> difference between loss function and metric: loss function is sensitive to minute changes. Therefore, it is the function we use to calculate gradient. However, at the end of the day, the metric is what we are looking out for (practical significance).
+> loss function is sensitive to minute changes (even when there is no change in image categorisation), while metrics only change when there is a change in categorisation. Therefore, loss function is used to calculate gradient. However at the end of the day, the metric is what we are looking out for (practical significance).
 
 ## Deep Learning Models
 
