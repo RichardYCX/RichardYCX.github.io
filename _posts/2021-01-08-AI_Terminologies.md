@@ -3,7 +3,7 @@ For this post, I thought it'll be nice to collate dictionary of common terms in 
 
 ## Common Terms
 | acronym        |actual term | explanation   |
-|:------------- |:-------------|:-------------|
+|------------- |-------------|-------------|
 |dls |dataloaders| fastAI's module to split datasets into mini-batches. gradient is updated after every batch (rather than every epoch)|
 |ds  |dataset| tuple of inputs and labels |
 |bs | batch size| size of each mini-batch|
