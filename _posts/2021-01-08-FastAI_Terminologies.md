@@ -29,7 +29,7 @@ For this post, I thought it'll be nice to collate dictionary of common terms in 
 |parameters|| numbers that are randomly initialized, and optimized (that is, the numbers that define the model)|
 |GD | gradient descent| taking a step in the directions **opposite** to the graidents to make the model more accurate|
 |SGD | stochastic gradient descent| GD but taking a step after every mini-batch instead of every epoch. The pro is that weights can be updated more frequently, especially if the dataset is huge|
-|nonlinearity| | something that helps to add complexity to the model to help it generalise for any tasks(*as proposed in the **universal approximation theorem** *)
+|nonlinearity| | something that helps to add complexity to the model to help it generalise for any tasks(*as proposed in the **universal approximation theorem***)
 |activation function| |a function in the final layer that returns the dependent variables as values between 0-1. *eg. sigmoid for binary classification, softmax is the multi-category equivalent of sigmoid*|
 |y_range| |the range of values of the dependent variable (*applicable to regression problems*)|
 |vocab| |list of all the possible levels of dependent variable (*applicable to classification problems*)|
